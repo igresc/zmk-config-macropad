@@ -1,2 +1,0 @@
-config SHIELD_MACROPAD
-    def_bool $(shileds_list_contains,macropad)
