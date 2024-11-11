@@ -14,7 +14,7 @@
             bindings = <
                 &studio_unlock &kp M    &mo 1
                 &kp A    &kp B    &kp C
-                &kp 1    &kp 2    &kp 3 
+                &kp N1    &kp N2    &kp N3 
             >;
         };
 
