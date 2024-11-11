@@ -23,7 +23,7 @@
         compatible = "zmk,physical-layout-position-map";
         complete; // Optional, see 'Example non-complete position map'
         macropad_map: macropad {
-            physical-layout = <&macropad_layout>;
+            physical-layout = <&physical_layout_0>;
             positions 
                 = <0 1 2>
                 , <3 4 5>
