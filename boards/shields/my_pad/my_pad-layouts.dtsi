@@ -22,10 +22,13 @@
     keypad_position_map {
         compatible = "zmk,physical-layout-position-map";
         complete; // Optional, see 'Example non-complete position map'
-        positions 
-        = <0 1 2>
-        , <3 4 5>
-        , <6 7 8>;
+        macropad_map: macropad {
+            physical-layout = <&macropad_layout>;
+            positions 
+                = <0 1 2>
+                , <3 4 5>
+                , <6 7 8>;
+        };
     };
 };
 
