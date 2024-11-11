@@ -35,8 +35,8 @@
             RC(2,0) RC(2,1) RC(2,2)
         >;
     };
-    &physical_layout0 {
-    kscan = <&kscan0>;
-    transform = <&matrix_transform0>;
-    }; 
+    // &physical_layout0 {
+    // kscan = <&kscan0>;
+    // transform = <&matrix_transform0>;
+    // }; 
 };
