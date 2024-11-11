@@ -1,0 +1,6 @@
+if SHIELD_MYPAD
+
+config ZMK_KEYBOARD_NAME
+    default "my_pad"
+
+endif

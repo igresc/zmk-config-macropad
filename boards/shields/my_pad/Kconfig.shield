@@ -1,0 +1,2 @@
+config SHIELD_MYPAD
+    def_bool $(shileds_list_contains,my_pad)
