@@ -32,7 +32,8 @@
         compatible = "zmk,matrix-transform";
         columns = <3>; // Length of the "col-gpios" array
         rows = <3>; // Length of the "row-gpios" array
-        map = < // x, y - col, row
+        // (x, y) - col, row
+        map = < 
         //   Key 1 | Key 2 | Key 3
             RC(0,0) RC(0,1) RC(0,2)
         //   Key 4 | Key 5 | Key 6
