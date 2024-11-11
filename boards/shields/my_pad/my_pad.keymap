@@ -12,9 +12,9 @@
             // |     A     |     B     |     C     |
             // |     D     |     E     |     F     |
             bindings = <
-                &kp Z    &kp M    &mo 1
+                &studio_unlock &kp M    &mo 1
                 &kp A    &kp B    &kp C
-                &kp D    &kp E    &kp F
+                &kp 1    &kp 2    &kp 3 
             >;
         };
 
